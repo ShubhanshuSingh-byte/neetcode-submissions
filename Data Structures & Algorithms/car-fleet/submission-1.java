@@ -4,7 +4,7 @@ class Solution
     {
         int fleet = 1;
         double pre = 0;
-
+        //works for logic with no car at same position with different speed
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for(int i=0; i<position.length; i++)
